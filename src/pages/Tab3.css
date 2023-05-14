@@ -1,0 +1,10 @@
+.matrix-grid{
+    border-radius: 10px;
+    background-color: rgb(23, 23, 30);
+}
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
