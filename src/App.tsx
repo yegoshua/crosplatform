@@ -45,6 +45,9 @@ import MainTabs from "./components/Tabs/MainTabs";
 import Lr2 from "./pages/LR2/lr2";
 import Lr3 from "./pages/LR3/Lr3";
 import Lr4 from "./pages/LR4/Lr4";
+import Lr6 from "./pages/LR6/Lr6";
+import Lr8 from "./pages/LR8/Lr8";
+import Lr9 from "./pages/LR9/Lr9";
 
 setupIonicReact();
 
@@ -55,6 +58,9 @@ const appPages = [
     { title: "Лр2 завдання 1", path: "/lr2-1" },
     { title: "Лр3 завдання 1", path: "/lr3-1" },
     { title: "Лр4 завдання 1", path: "/lr4-1" },
+    { title: "Лр6 завдання 1", path: "/lr6-1" },
+    { title: "Лр8 завдання 1", path: "/lr8-1" },
+    { title: "Лр9 завдання 1", path: "/lr9-1" },
 ];
 
 const App: React.FC = () => (
@@ -93,6 +99,9 @@ const App: React.FC = () => (
                     <Route exact path="/lr2-1" component={Lr2} />
                     <Route exact path="/lr3-1" component={Lr3} />
                     <Route exact path="/lr4-1" component={Lr4} />
+                    <Route exact path="/lr6-1" component={Lr6} />
+                    <Route exact path="/lr8-1" component={Lr8} />
+                    <Route exact path="/lr9-1" component={Lr9} />
                 </IonRouterOutlet>
         </IonReactRouter>
     </IonApp>
